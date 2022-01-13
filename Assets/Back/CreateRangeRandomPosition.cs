@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CreateRangeRandomPosition : MonoBehaviour
 {
-    GameObject player;
+    GameObject cloud;
 
     [SerializeField]
     [Tooltip("生成するGameObject")]
@@ -22,18 +22,18 @@ public class CreateRangeRandomPosition : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.Find("Super_Spitfire");
+        cloud = GameObject.Find("Super_Spitfire");
     }
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerPos = this.player.transform.position;
+        Vector3 playerPos = this.cloud.transform.position;
 
         // 前フレームからの時間を加算していく
         time = time + Time.deltaTime;
 
         // 約1秒置きにランダムに生成されるようにする。
-        if (time > 2.0f)
+        if (time > 4.0f)
         {
             // rangeAとrangeBのx座標の範囲内でランダムな数値を作成
             float x = Random.Range(rangeA.position.x, rangeB.position.x);

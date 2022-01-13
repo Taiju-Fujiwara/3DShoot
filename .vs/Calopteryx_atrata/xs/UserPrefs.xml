@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{24EF36CF-98C2-0AD2-74E0-D929F8194FD3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Player_Script/Plane.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Player_Script/ShootingRight.cs">
     <Files>
-      <File FileName="Assets/Enemy/Mob1.cs" Line="19" Column="16" />
-      <File FileName="Assets/Player_Script/Plane.cs" Line="54" Column="1" />
-      <File FileName="Assets/Player_Script/Player_HP.cs" Line="1" Column="1" />
+      <File FileName="Assets/Player_Script/Plane.cs" Line="69" Column="42" />
+      <File FileName="Assets/Enemy/Mob2.cs" Line="94" Column="48" />
+      <File FileName="Assets/Player_Script/ShootingRight.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e5cc0f4d-c8fc-49e6-9877-82da65dd910b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f37565bd-707c-4cd1-babd-b2f218094593" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

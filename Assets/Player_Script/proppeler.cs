@@ -13,6 +13,7 @@ public class proppeler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //@ƒvƒƒyƒ‰‚Ì‰ñ“]
         transform.Rotate(new Vector3(0, 5, 0));
     }
 }

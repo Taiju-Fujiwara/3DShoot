@@ -5,7 +5,7 @@ using UnityEngine;
 public class Plane : MonoBehaviour
 {
     // speedを制御する
-    public float speed = 50;
+    public float speed = 80;
     public float moveForceMultiplier;
 
     // 水平移動時に機首を左右に向けるトルク
@@ -22,7 +22,6 @@ public class Plane : MonoBehaviour
 
     private Vector3 Player_pos;
     private new Rigidbody rigidbody;
-
     void Awake()
     {
         rigidbody = GetComponent<Rigidbody>();
@@ -58,12 +57,14 @@ public class Plane : MonoBehaviour
         
     }
 
+    
     // Update is called once per frame
     void Update()
     {
         Rigidbody rb = this.GetComponent<Rigidbody>();  // rigidbodyを取得
         Vector3 force = new Vector3(0, 0, 4.5f);    // 力を設定
         rb.AddForce(force);  // 力を加える
+        
     }
 
 }

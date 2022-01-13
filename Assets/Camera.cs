@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,5 +18,10 @@ public class Camera : MonoBehaviour
     {
         Vector3 playerPos = this.player.transform.position;
         transform.position = new Vector3(transform.position.x, transform.position.y, playerPos.z-8.5f);
+    }
+
+    internal static Ray ScreenPointToRay(Vector3 mousePosition)
+    {
+        throw new NotImplementedException();
     }
 }

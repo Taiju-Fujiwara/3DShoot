@@ -9,7 +9,7 @@ public class BulletDestroy: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.player = GameObject.Find("Super_Spitfire");
+        this.player = GameObject.Find("Super_Spitfire");  
     }
 
     // Update is called once per frame
@@ -17,7 +17,8 @@ public class BulletDestroy: MonoBehaviour
     {
         Vector3 playerPos = this.player.transform.position;
 
-        if (transform.position.z >= playerPos.z + 50)
+        //　プレイヤーから離れると破壊
+        if (transform.position.z >= playerPos.z + 75)
         {
             Destroy(gameObject);
         }
@@ -26,6 +27,10 @@ public class BulletDestroy: MonoBehaviour
     public void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "enemy")
+        {
+            Destroy(gameObject);
+        }
+        if(collision.gameObject.tag == "bullet")
         {
             Destroy(gameObject);
         }

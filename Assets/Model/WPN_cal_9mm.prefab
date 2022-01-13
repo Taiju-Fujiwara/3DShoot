@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 2088853007745269422}
   - component: {fileID: 6738994372684270411}
   - component: {fileID: 344159810429976556}
+  - component: {fileID: 2246373705951872999}
   m_Layer: 0
   m_Name: WPN_cal_9mm
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,3 +132,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d49a335d65e4de8b2459d2e920ca1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &2246373705951872999
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088853007737867630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.0051295077
+  m_Height: 0.029895866
+  m_Direction: 1
+  m_Center: {x: -0.000000013504177, y: 0.000000038184236, z: 0.000000012572857}
